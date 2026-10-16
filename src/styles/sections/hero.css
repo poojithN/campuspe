@@ -1,0 +1,33 @@
+/* Hero: option cards and stats */
+
+.cards3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.stats b {
+  font-size: 22px;
+  display: block;
+}
+
+@media (min-width:600px) {
+  .stats {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .cards3 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}

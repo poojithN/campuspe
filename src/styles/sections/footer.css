@@ -1,0 +1,54 @@
+/* Footer */
+
+footer {
+  padding: 40px 0 20px;
+}
+
+.fgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.fgrid h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.fgrid p {
+  color: var(--muted);
+  margin: 6px 0;
+}
+
+.fgrid a {
+  display: block;
+  color: var(--muted);
+  margin: 6px 0;
+}
+
+.fgrid a:hover {
+  color: var(--blue);
+}
+
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+@media (min-width:600px) {
+  .fgrid {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (min-width:992px) {
+  .fgrid {
+    grid-template-columns: 1.4fr repeat(4,1fr);
+  }
+}

@@ -1,0 +1,14 @@
+/* Utilities: small helper classes */
+
+.center {
+  text-align: center;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 14px;
+}

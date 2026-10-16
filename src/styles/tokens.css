@@ -1,0 +1,33 @@
+/* Design tokens: colors for light and dark themes */
+
+:root {
+  --bg: #f6f4ff;
+  --card: #fff;
+  --text: #111827;
+  --muted: #6b7280;
+  --blue: #1769e0;
+  --line: #e5e7f0;
+  --soft: #eef4ff;
+}
+
+@media (prefers-color-scheme:dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12131c;
+    --card: #1b1d2a;
+    --text: #f1f2f8;
+    --muted: #a0a4b8;
+    --line: #2b2e42;
+    --soft: #1f2740;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #12131c;
+  --card: #1b1d2a;
+  --text: #f1f2f8;
+  --muted: #a0a4b8;
+  --line: #2b2e42;
+  --soft: #1f2740;
+  color-scheme: dark;
+}

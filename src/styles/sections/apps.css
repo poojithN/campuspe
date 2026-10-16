@@ -1,0 +1,50 @@
+/* App screens and download section */
+
+.app-showcase {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.download {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.download-img {
+  width: 150px;
+  max-width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  transform: rotate(12deg);
+}
+
+.store {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.store:hover {
+  opacity: .85;
+}
+
+@media (min-width:768px) {
+  .download {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .download-img {
+    width: 200px;
+  }
+}

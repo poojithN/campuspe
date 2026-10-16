@@ -1,0 +1,19 @@
+/* Imports every stylesheet in the right order */
+
+@import "./tokens.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./utilities.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/icon.css";
+@import "./components/item.css";
+@import "./sections/navbar.css";
+@import "./sections/hero.css";
+@import "./sections/partners.css";
+@import "./sections/discover.css";
+@import "./sections/resume.css";
+@import "./sections/apps.css";
+@import "./sections/support.css";
+@import "./sections/cta.css";
+@import "./sections/footer.css";

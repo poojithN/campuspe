@@ -1,0 +1,39 @@
+/* Card (hero cards and opportunity feed) */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(60,60,120,.07);
+  transition: box-shadow .2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 22px rgba(60,60,120,.14);
+}
+
+.card .tag {
+  float: right;
+  font-size: 10px;
+  background: var(--soft);
+  color: var(--blue);
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+
+.card h3 {
+  margin: 14px 0 6px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.card li {
+  margin: 6px 0;
+}

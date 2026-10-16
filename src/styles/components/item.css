@@ -1,0 +1,22 @@
+/* Numbered list item (Discover and Feature sections) */
+
+.item {
+  display: flex;
+  gap: 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.item b {
+  display: block;
+  font-size: 14px;
+}
+
+.item span.n {
+  font-size: 11px;
+  color: var(--blue);
+  font-weight: 700;
+}

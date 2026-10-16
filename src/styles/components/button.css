@@ -1,0 +1,31 @@
+/* Button (used everywhere) */
+
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font: 600 13px Inter,sans-serif;
+  border-radius: 8px;
+  padding: 10px 18px;
+  background: var(--blue);
+  color: #fff;
+  transition: filter .15s,background .15s;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+.btn.out {
+  background: var(--card);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn.out:hover {
+  background: var(--soft);
+}
+
+.btn.full {
+  width: 100%;
+}
