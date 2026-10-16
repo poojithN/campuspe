@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CampusPe landing page
 
 A React + Vite recreation of the CampusPe landing page, built from a design screenshot.
@@ -23,3 +24,6 @@ A React + Vite recreation of the CampusPe landing page, built from a design scre
 
 ## Live link
 Add your deployed URL here after deploying (for example on Vercel or Netlify).
+=======
+# campuspe
+>>>>>>> 0bf1c215e2638f21df7a9bc6f6a949c02883b4e5
